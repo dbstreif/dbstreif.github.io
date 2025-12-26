@@ -14,18 +14,18 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 20, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['dbstreif/cc-licenses', 'dbstreif/dbstreif.github.io', 'dbstreif/Rocket-Globe', 'dbstreif/dbstreif', 'dbstreif/GoatScraper', 'dbstreif/obsidian-remote'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['dbstreif/iambic-controller', 'dbstreif/iambic-controller-board', 'dbstreif/Distrubuted-NPB-Testbench', 'dbstreif/heartbeatstyle-gossip', 'dbstreif/VBandAI', 'dbstreif/Giggity', 'dbstreif/gamehackingtemplate', 'dbstreif/nvim-config', 'dbstreif/ChristmasPI', 'dbstreif/SpaceX-API-PY', 'dbstreif/RogueCompany', 'dbstreif/phashack'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -51,11 +51,11 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Dominic Streif', description: 'My name is Dominic Streif, and I am a current student at California Polytechnic State University actively pursuing a B.S. in Computer Science with a concentration in cybersecurity.\n\nI have a strong passion for designing software that is robust, scalable, and used for the common good of society. I believe that with my eagerness to learn and strong curiosity as a software developer, I can contribute to the advancement of technology today, and discover new, innovative solutions in this ever evolving field.', imageURL: 'https://avatars.githubusercontent.com/u/57925530?s=400&u=167660973adb0e287bfea09cca599f1708900e35&v=4' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'dbstreif',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -65,14 +65,14 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'dbstreif.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'streif.dominic@gmail.com',
   },
   resume: {
     fileUrl:
