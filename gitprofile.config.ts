@@ -16,7 +16,7 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: '', // Sort projects by 'stars' or 'updated'
         limit: 20, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
@@ -29,6 +29,7 @@ const CONFIG = {
       },
     },
     external: {
+    /*
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
@@ -47,13 +48,14 @@ const CONFIG = {
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
+                */
         },
       ],
     },
   },
   seo: { title: 'Portfolio of Dominic Streif', description: 'My name is Dominic Streif, and I am a current student at California Polytechnic State University actively pursuing a B.S. in Computer Science with a concentration in cybersecurity.\n\nI have a strong passion for designing software that is robust, scalable, and used for the common good of society. I believe that with my eagerness to learn and strong curiosity as a software developer, I can contribute to the advancement of technology today, and discover new, innovative solutions in this ever evolving field.', imageURL: 'https://avatars.githubusercontent.com/u/57925530?s=400&u=167660973adb0e287bfea09cca599f1708900e35&v=4' },
   social: {
-    linkedin: 'dbstreif',
+    linkedin: 'dominic-streif',
     x: '',
     mastodon: '',
     researchGate: '',
@@ -66,7 +68,7 @@ const CONFIG = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: '',
+    dev: 'dbstreif',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
@@ -76,86 +78,102 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/uc?export=download&id=1YqKm9fSLr0cpCSHCm3Fyu0_g-EwomnbL', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
+    'Python',
+    'Bash',
+    'Go',
+    'C',
+    'C++',
+    'Rust',
+    'Linux',
+    'Git',
+    'Java',
+    'Docker',
+    'CAN',
+    'Embedded Systems',
+    'Radio Frequency',
+    'Satellite Communications',
+    'Soldering',
+    'Microcontrollers',
+    'Qt framework',
+    'Vim',
+    'Azure Devops',
     'MySQL',
     'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Morse Code',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'California Polytechnic University San Luis Obispo',
+      position: 'Satellite Security Researcher',
+      from: 'September 2025',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: '',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'California Polytechnic University San Luis Obispo',
+      position: 'Computer Science Teaching Assistant/Mathematics Grader',
+      from: 'January 2025',
+      to: 'June 2025',
+      companyLink: '',
+    },
+    {
+      company: 'Altec Industries',
+      position: 'Core Controls Developer (Intern)',
+      from: 'June 2024',
+      to: 'September 2024',
+      companyLink: 'https://www.altec.com/',
+    },
+    {
+      company: 'California Polytechnic University San Luis Obispo',
+      position: 'Undergraduate Researcher',
+      from: 'January 2024',
+      to: 'May 2024',
+      companyLink: '',
+    },
+    {
+      company: 'Odin Waterpolo Club',
+      position: 'Sports Coach',
+      from: 'January 2020',
+      to: 'September 2023',
+      companyLink: 'https://odinwaterpolo.com/',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Amateur Radio Operator Class License',
+      body: 'General Class License issued by the Federal Communications Commission\nCredential ID KO6LCW',
+      year: 'November 2025',
+      link: '',
+    },
+    {
+      name: 'Export Compliance',
+      body: 'CITI Program',
+      year: 'October 2025',
+      link: 'https://www.citiprogram.org/verify/?w32d33798-b681-45cd-857e-7e08e5fc79a5-73145819',
+    },
+    {
+      name: 'Information Privacy and Security',
+      body: 'CITI Program',
+      year: 'October 2025',
+      link: 'https://www.citiprogram.org/verify/?w798fa248-a45a-4184-8e0b-6bc2cbd82a6c-73145820',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'California Polytechnic University San Luis Obispo',
+      degree: 'Bachelor\'s degree, Computer Science',
+      from: '2023',
+      to: '2026',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
+  publications: [],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'dbstreif', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -179,42 +197,8 @@ const CONFIG = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'light',
       'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'dim',
-      'nord',
-      'sunset',
-      'caramellatte',
-      'abyss',
-      'silk',
-      'procyon',
+      'light',
     ],
   },
 
