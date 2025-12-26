@@ -16,7 +16,7 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
+        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 20, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
@@ -48,9 +48,9 @@ const CONFIG = {
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
-                */
         },
       ],
+                */
     },
   },
   seo: { title: 'Portfolio of Dominic Streif', description: 'My name is Dominic Streif, and I am a current student at California Polytechnic State University actively pursuing a B.S. in Computer Science with a concentration in cybersecurity.\n\nI have a strong passion for designing software that is robust, scalable, and used for the common good of society. I believe that with my eagerness to learn and strong curiosity as a software developer, I can contribute to the advancement of technology today, and discover new, innovative solutions in this ever evolving field.', imageURL: 'https://avatars.githubusercontent.com/u/57925530?s=400&u=167660973adb0e287bfea09cca599f1708900e35&v=4' },
@@ -182,7 +182,7 @@ const CONFIG = {
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
