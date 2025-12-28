@@ -25,32 +25,30 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['dbstreif/iambic-controller', 'dbstreif/iambic-controller-board', 'dbstreif/Distrubuted-NPB-Testbench', 'dbstreif/heartbeatstyle-gossip', 'dbstreif/Giggity', 'dbstreif/nvim-config', 'dbstreif/ChristmasPI', 'dbstreif/SpaceX-API-PY', 'dbstreif/RogueCompany'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['dbstreif/iambic-controller', 'dbstreif/Distrubuted-NPB-Testbench', 'dbstreif/heartbeatstyle-gossip', 'dbstreif/Giggity', 'dbstreif/nvim-config', 'dbstreif/ChristmasPI', 'dbstreif/SpaceX-API-PY', 'dbstreif/RogueCompany'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-    /*
-      header: 'My Projects',
+      header: 'Featured',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Iambic Controller Board',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            ' Custom PCB designed to interface with ATtiny85-based firmware for Morse keying.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://github.com/dbstreif/iambic-controller-board/raw/main/assets/iambic-controller-board-slant.png',
+          link: 'https://github.com/dbstreif/iambic-controller-board',
         },
         {
-          title: 'Project Name',
+          title: 'QCX+ 5W CW Transceiver Custom Build',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            ' QRP Labs QCX+ 5W CW Radio Transceiver modified for 15m band (21MHz) frequency range. This project includes Custom Frontplate/Backplate parametric part designs, and specs/calculations for inductance and capacitance values for the transformer and low pass filter.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://github.com/dbstreif/Custom-QCX-Plus/raw/main/assets/top.jpg',
+          link: 'https://github.com/dbstreif/Custom-QCX-Plus',
         },
       ],
-                */
     },
   },
   seo: { title: 'Portfolio of Dominic Streif', description: 'My name is Dominic Streif, and I am a current student at California Polytechnic State University actively pursuing a B.S. in Computer Science with a concentration in cybersecurity.\n\nI have a strong passion for designing software that is robust, scalable, and used for the common good of society. I believe that with my eagerness to learn and strong curiosity as a software developer, I can contribute to the advancement of technology today, and discover new, innovative solutions in this ever evolving field.', imageURL: 'https://avatars.githubusercontent.com/u/57925530?s=400&u=167660973adb0e287bfea09cca599f1708900e35&v=4' },
