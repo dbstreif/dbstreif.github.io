@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['dbstreif/iambic-controller', 'dbstreif/iambic-controller-board', 'dbstreif/Distrubuted-NPB-Testbench', 'dbstreif/heartbeatstyle-gossip', 'dbstreif/VBandAI', 'dbstreif/Giggity', 'dbstreif/gamehackingtemplate', 'dbstreif/nvim-config', 'dbstreif/ChristmasPI', 'dbstreif/SpaceX-API-PY', 'dbstreif/RogueCompany', 'dbstreif/phashack'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['dbstreif/iambic-controller', 'dbstreif/iambic-controller-board', 'dbstreif/Distrubuted-NPB-Testbench', 'dbstreif/heartbeatstyle-gossip', 'dbstreif/Giggity', 'dbstreif/nvim-config', 'dbstreif/ChristmasPI', 'dbstreif/SpaceX-API-PY', 'dbstreif/RogueCompany'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
