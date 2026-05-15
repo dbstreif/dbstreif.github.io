@@ -104,6 +104,13 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Red Balloon Security',
+      position: 'Reverse Engineer Intern',
+      from: 'March 2026',
+      to: 'Present',
+      companyLink: 'https://redballoonsecurity.com',
+    },
+    {
       company: 'California Polytechnic University San Luis Obispo',
       position: 'Satellite Security Researcher',
       from: 'September 2025',
@@ -162,9 +169,9 @@ const CONFIG = {
   educations: [
     {
       institution: 'California Polytechnic University San Luis Obispo',
-      degree: 'Bachelor\'s degree, Computer Science',
+      degree: 'Master\'s degree, Computer Science',
       from: '2023',
-      to: '2026',
+      to: '2027',
     },
   ],
   publications: [],
